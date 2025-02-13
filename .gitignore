@@ -2,3 +2,5 @@
 before_folder/
 __pycache__
 .env
+.hypothesis/
+.DS_Store
