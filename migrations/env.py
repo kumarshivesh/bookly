@@ -7,7 +7,10 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from alembic import context
 
-from src.db.models import User, Book, Review, Tag, BookTag
+#from src.db.models import User, Book, Review, Tag, BookTag
+# Import the models module
+from src.db import models  # This will import all your models at once
+
 from sqlmodel import SQLModel
 from src.config import Config
 
